@@ -1,0 +1,1 @@
+mocha --bail --check-leaks --ui qunit test/

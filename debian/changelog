@@ -1,0 +1,68 @@
+node-cookie (0.4.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Declare compliance with policy 4.6.0
+
+ -- Yadd <yadd@debian.org>  Wed, 22 Sep 2021 16:16:03 +0200
+
+node-cookie (0.4.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * New upstream version 0.4.1
+  * Update test
+  * Add "Multi-Arch: foreign"
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 25 May 2020 09:15:17 +0200
+
+node-cookie (0.4.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Switch test and install to pkg-js-tools
+  * New upstream version 0.4.0
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 17 Dec 2019 03:42:54 +0100
+
+node-cookie (0.3.1+20180326git4e2b255de6b85c3ec-1) unstable; urgency=medium
+
+  * Team upload
+  * Move to javascript section
+  * Bump policy and compat
+  * Run testsuite in autopkgtest
+  * Modernize rules
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 09 May 2018 17:45:41 +0200
+
+node-cookie (0.1.2-2) unstable; urgency=medium
+
+  * Enable package tests, depends nodejs, mocha
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 12 Oct 2014 10:01:41 +0200
+
+node-cookie (0.1.2-1) unstable; urgency=medium
+
+  * Move to pkg-javascript
+  * Add autopkgtest
+  * Standards-Version 3.9.6
+  * Imported Upstream version 0.1.2
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 12 Oct 2014 09:24:54 +0200
+
+node-cookie (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #707777)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 11 May 2013 11:14:06 +0200

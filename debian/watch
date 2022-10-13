@@ -1,0 +1,3 @@
+version=4
+opts=filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-cookie-$1.tar.gz/ \
+https://github.com/shtylman/node-cookie/tags .*/archive/.*/v?([\d\.]+).tar.gz	
