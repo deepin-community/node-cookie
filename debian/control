@@ -6,8 +6,7 @@ Uploaders: Jérémy Lal <kapouer@melix.org>
 Testsuite: autopkgtest-pkg-nodejs
 Build-Depends:
  debhelper-compat (= 13)
- , nodejs (>= 6) <!nocheck>
- , mocha (>= 1.21.5) <!nocheck>
+ , mocha <!nocheck>
  , dh-sequence-nodejs
 Standards-Version: 4.6.0
 Homepage: https://github.com/shtylman/node-cookie
@@ -17,9 +16,7 @@ Rules-Requires-Root: no
 
 Package: node-cookie
 Architecture: all
-Depends:
- ${misc:Depends}
- , nodejs
+Depends: ${misc:Depends}
 Multi-Arch: foreign
 Description: Basic cookie parser and serializer module for Node.js
  node-cookie just provides a way to read and write RFC6265 HTTP cookie

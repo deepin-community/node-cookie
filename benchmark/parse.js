@@ -50,7 +50,7 @@ suite.add({
 })
 
 suite.on('start', function onCycle (event) {
-  process.stdout.write('  cookie.parse\n\n')
+  process.stdout.write('  cookie.parse - generic\n\n')
 })
 
 suite.on('cycle', function onCycle (event) {
@@ -70,5 +70,5 @@ function gencookies (num) {
     str += '; foo' + i + '=bar'
   }
 
-  return str.substr(2)
+  return str.slice(2)
 }
